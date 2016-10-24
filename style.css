@@ -1,0 +1,82 @@
+/*
+	STYLE.CSS:
+	One stylesheet to rule them all.
+
+	selector { property:value }
+
+*/
+
+header h1 {
+    margin: 0;
+}
+
+.wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+
+img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+header {
+    height: 100px;
+
+    /* Blue */
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50pt;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40pt;
+
+    text-align: center;
+}
+/* I am also a comment */
+
+main {
+    font-family: 'Roboto', sans-serif;
+text-align: center;
+
+}
+
+html {
+  background: url(https://lonelyplanetimages.imgix.net/a/g/hi/t/1da32e09c1497a907cda4479049e6b2b-denver.jpg?sharp=10&vib=20&w=1200) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+p {
+
+    font-size: 20pt
+
+}
+
+footer {
+    height: 100px;
+}
